@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* Header, Top Nav */
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 16px;
+    padding-inline: 72px;
+}
+
+nav img {
+    background-color: white;
+}
+
+nav div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+/* Banner */
+#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 72px;
+    padding-bottom: 94px;
+    padding-inline: 72px;
+    gap: 24px;
+}
+
+#banner-text {
+    flex: 1;
+}
+
+#banner-image {
+    flex: 1.15;
+}
+
+#banner h1 {
+    font-size: 48px;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+/* Information (Cards) */
+#random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 120px;
+}
+
+#random-information h1 {
+    padding-bottom: 48px;
+}
+
+#random-information div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 150px;
+    column-gap: 16px;
+    flex-wrap: wrap;
+}
+
+#random-information h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card img {
+    border: 5px solid #3b82f6;
+    border-radius: 12px;
+}
+
+/* Quote */
+#quote-texts {
+    display: flex;
+    justify-content: center;
+    padding-block: 80px;
+    background-color: #e5e7eb;
+}
+#quote-texts div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 625px;
+}
+
+#quote-texts h1 {
+    font-weight: normal;
+    font-size: 36px;
+    font-weight: light;
+}
+
+#quote-texts p {
+    align-self: flex-end;
+}
+
+/* Dign Up Box */
+#sign-up-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 80px;
+}
+
+#sign-up-box {
+    display: flex;
+    flex-basis: 75%;
+    background-color: #3b82f6;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 32px;
+    border-radius: 8px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    padding-inline: 42px;
+    padding-block: 8px;
+}
+
+#banner .sign-up-button {
+    border-width: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding-block: 32px;
+}
