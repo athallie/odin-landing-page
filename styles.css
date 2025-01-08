@@ -40,10 +40,14 @@ nav div ul {
     padding-bottom: 94px;
     padding-inline: 72px;
     gap: 24px;
+    min-height: 20vw;
 }
 
-#banner-text {
+#banner-left {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
 #banner-image {
